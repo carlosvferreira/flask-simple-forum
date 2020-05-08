@@ -9,6 +9,7 @@
 *.pyx    text diff=python
 *.pyz    text diff=python
 *.pyi    text diff=python
+*.html linguist-language=Python
 
 # Binary files
 # ============

@@ -1,0 +1,186 @@
+body, html {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100%;
+  display: contents; 
+}
+
+footer {
+  text-align: center;
+  font-size: medium;
+  height: 5%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.content {
+  margin: 0 auto;
+  width: 60%;
+  height: 90%;
+}
+
+h1 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+table, td, th, .threadtitle, .threadcontent {
+  border: 1px solid #aaa;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr.tableRowMain {
+  line-height: 2;
+}
+
+th {
+  height: 10%;
+  font-size: 1vw;
+}
+
+td {
+  text-align: center;
+  padding: 0.2vw;
+  font-size: 1vw;
+}
+
+form {
+  margin: 0.5vw 0 0 0;
+  height: 4vw;
+}
+
+.button {
+	box-shadow:inset 0px 0px 9px 0px #9fb4f2;
+	background-color:#d7e4fa;
+	border-radius:5px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 50px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #283966;
+}
+.button:hover {
+	background-color:#476e9e;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.formbuttondelete{
+  box-shadow:inset 0px 0px 9px 0px #db0a0a;
+  margin-bottom: 2px;
+  margin-top: 2px;
+	background-color:#e99797;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	padding:5px 15px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #283966;
+}
+
+.formbuttondelete:hover {
+	background-color:#eb5858;
+}
+.formbuttondelete:active {
+	position:relative;
+	top:1px;
+}
+
+.formbuttonview{
+  box-shadow:inset 0px 0px 9px 0px #9fb4f2;
+  margin-bottom: 2px;
+  margin-top: 2px;
+	background-color:#d7e4fa;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	padding:5px 15px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #283966;
+}
+
+.formbuttonview:hover {
+	background-color:#476e9e;
+}
+.formbuttonview:active {
+	position:relative;
+	top:1px;
+}
+
+#addthread {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#threadsubmit {
+  float: right;
+  margin-top: 3%;
+}
+
+#threadtitle {
+  width: 100%;
+  margin-bottom: 2%;
+  font-size: x-large;
+}
+
+#threadcontent {
+  width: 100%;
+  font-size: large;
+  min-height: 200px;
+}
+
+.threadtitle {
+  font-size: x-large;
+  margin-bottom: 1%;
+  padding-left: 0.5%;
+}
+
+.threadcontent {
+  height: auto;
+  min-height: 10%;
+  margin-bottom: 5%;
+  padding-left: 0.5%;
+}
+
+.commentText {
+  margin: 0;
+}
+
+#commentcontent {
+  min-height: 10%;
+  height: auto;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  resize: none;
+  padding-left: 1%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  font-size: large;
+  max-width: -webkit-fill-available;
+}
+
+#commentsubmit {
+  float: right;
+}
+
+#backbutton {
+  margin-top: 2%;
+}

@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<title>New Thread</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="content">
+  <a href="/" class= "button" id="backbutton">❮ Back</a>
+  <h1>Create a new thread</h1>
+  <form action="/new" method="POST">
+    <input type="text" name="title" id="threadtitle" placeholder="Title"><br>
+    <textarea type="text" name="content" id="threadcontent" placeholder="Content"></textarea><br>
+    <input type="submit" id="threadsubmit" value="Add thread" class="button">
+  </form>
+</div>
+
+{% endblock %}

@@ -44,7 +44,7 @@ def new():
     try:
       db.session.add(new_thread)
       db.session.commit()
-      return redirect('/') #correct this code to redirect to created thread page if possible
+      return redirect('/')
 
     except:
       return 'Tere was an error while creating the thread'
